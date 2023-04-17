@@ -17,14 +17,13 @@ body {
     
 }
 #title {
-    font-size: 7vh;
-    font-size: 5vw;
+    font-size: 100px;
+    
    
     margin: 0;
 }
 #title2 {
-    font-size: 7vh;
-    font-size: 5vw;
+    font-size: 100px;
    
     padding-left: 10px;
 }
