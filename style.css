@@ -56,9 +56,12 @@ h1 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    height: 500px;
+
 
 }
 #ch1 {
-    font-size: 50px;
+    font-size: 65px;
     text-align: center;
+    
 }
