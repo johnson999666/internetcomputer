@@ -50,36 +50,15 @@ h1 {
 
 /* title div */
 
-.text1-title {
+.parent1 {
+    background-color: red;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-}
-#text1-title {
-    font-size: 4vh;
-    font-size: 4vw;
-    margin: 50px;
-}
-
-/* title div */
-
-.text1 {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    
-
-    
-    
-}
-#text1-title2 {
-    font-size: 3vh;
-    font-size: 3vw;
-    padding-left: 20px;
-    margin: 0;
 
 }
-#text2 {
-    padding-left: 20px;
+#ch1 {
+    font-size: 50px;
+    text-align: center;
 }
