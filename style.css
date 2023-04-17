@@ -72,4 +72,12 @@ h1 {
 
 .box {
     height: 300px;
+    padding: 0;
+    margin: 0;
+}
+
+#pro {
+    size: 100%;
+    padding: 0;
+    margin: 0;
 }
