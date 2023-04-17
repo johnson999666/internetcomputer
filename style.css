@@ -65,3 +65,17 @@ h1 {
     text-align: center;
     
 }
+
+  
+  @media screen and (max-width: 768px) {
+    #ch1 {
+      font-size: 3vw;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    #ch1 {
+      font-size: 2vw;
+    }
+  }
+  
