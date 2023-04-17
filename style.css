@@ -35,31 +35,7 @@ body {
     
 
 }
-@media screen and (max-width: 600px) {
-    /* Styles applied when the screen is 600 pixels wide or less */
-    .title {
-      width: 100%;
-    }
-  }
-  
-  h1 {
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    line-height: 1.2;
-    font-size: 5vw;
-  }
-  
-  @media screen and (min-width: 600px) {
-    h1 {
-      font-size: 4vw;
-    }
-  }
-  
-  @media screen and (min-width: 900px) {
-    h1 {
-      font-size: 3vw;
-    }
-  }
+
  .a {
     background-color: aqua;
     height: 600px;
