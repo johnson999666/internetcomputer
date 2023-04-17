@@ -9,11 +9,9 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-left: 40px;
-    padding-right: 40px;
-   
-    padding-top: 100px;
+  
     margin: 0;
+    padding: 0;
     
 }
 #title {
@@ -21,11 +19,12 @@ body {
     
    
     margin: 0;
+    padding: 0;
 }
 #title2 {
     font-size: 50px;
    
-    padding-left: 10px;
+    padding: 0;
 }
 #title-text {
     padding-bottom: 100px;
@@ -33,6 +32,44 @@ body {
     margin-top: 20px;
 
 }
+@media screen and (max-width: 600px) {
+    /* Styles applied when the screen is 600 pixels wide or less */
+    .title {
+      width: 100%;
+    }
+  }
+  
+  h1 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+    font-size: 5vw;
+  }
+  
+  @media screen and (min-width: 600px) {
+    h1 {
+      font-size: 4vw;
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    h1 {
+      font-size: 3vw;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
 /* title div */
 
 .text1-title {
