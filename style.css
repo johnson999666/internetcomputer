@@ -12,6 +12,7 @@ body {
     padding-bottom: 150px;
     padding-right: 75px;
     padding-left: 25px;
+    background-color: aqua;
 }
 h1 {
     font-size: 3em;
@@ -51,12 +52,12 @@ h1 {
 /* title div */
 
 .parent1 {
-    background-color: red;
+    
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height: 500px;
+    height: 400px;
 
 
 }
