@@ -70,8 +70,8 @@ h1 {
 
 /* 2 div */
 
-.box {
-    height: 300px;
+.flex-item {
+    
     padding: 0;
     margin: 0;
 }

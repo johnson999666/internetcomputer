@@ -23,45 +23,53 @@
 
     <!--text of the second div-->
     
-    <div class="box-container">
-        <div class="box" style="display: flex; flex-wrap: wrap;">
-          <div class="flex-item" style="background-color: red; width: 50%;">
+  
+
+      
+      
+      <div class="box-container">
+        <div class="box1">
             <div>
-            <strong>Smart Contacts serve webpages</strong>
-            <br>
-            <br>
-            <br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore velit eaque, perferendis sit exercitationem illum corrupti sequi. Reprehenderit vel corrupti quod optio sequi? Animi perspiciatis ipsum debitis exercitationem quis consequuntur.</div>
-        
+                <strong>Smart Contacts serve webpages</strong>
+                <br>
+                <br>
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore velit eaque, perferendis sit exercitationem illum corrupti sequi. Reprehenderit vel corrupti quod optio sequi? Animi perspiciatis ipsum debitis exercitationem quis consequuntur.
+            </div>
         </div>
-          <div class="flex-item" style="background-color: blue; width: 50%;">
-            <img id="pro" src="pro.jpg" alt="image" id="pair">
-        
-        </div>
+        <div class="box2">
+
+            <img src="pro.jpg" alt="image" id="pair">
         </div>
       </div>
       
       <style>
       .box-container {
-        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        height: 400px;
       }
       
-      .flex-item {
+      .box1 {
+        background-color: red;
+        width: 50%;
+        box-sizing: border-box;
+        padding: 20px;
+      }
+      
+      .box2 {
+        background-color: blue;
+        width: 50%;
         box-sizing: border-box;
         padding: 20px;
       }
       
       @media only screen and (max-width: 600px) {
-        .box {
-          flex-direction: column;
-        }
-        
-        .flex-item {
+        .box1, .box2 {
           width: 100%;
         }
       }
       </style>
-      
       
 
 </body>
