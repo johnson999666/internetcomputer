@@ -1,9 +1,38 @@
+
+
 body {
+  
     margin: 0;
     padding: 0;
+
 }
 
-.parent {
+/* Each item takes up the full width of the container */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-item {
+    flex: 1 0 100%; /* Each item takes up the full width of the container */
+    height: 400px; /* Set the height of each item */
+    background-color: #ccc;
+    
+  }
+  
+  @media (min-width: 768px) {
+    .flex-item {
+      flex-basis: calc(50% - 20px); /* Each item takes up 50% of the container's width with some margin */
+      
+    }
+  
+    .flex-item:last-child {
+      margin-right: 0; /* Remove the margin from the last item to prevent overflow */
+    }
+  }
+  /* Each item takes up the full width of the container */
+
+  .parent {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
@@ -34,24 +63,9 @@ h1 {
     }
   }
   
+ /* Each item takes up the full width of the container */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* title div */
-
-.parent1 {
+  .parent1 {
     
     display: flex;
     flex-wrap: wrap;
@@ -65,20 +79,4 @@ h1 {
     font-size: 6vw;
     text-align: center;
     
-}
-
-  
-
-/* 2 div */
-
-.flex-item {
-    
-    padding: 0;
-    margin: 0;
-}
-
-#pro {
-    size: 100%;
-    padding: 0;
-    margin: 0;
 }
